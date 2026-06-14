@@ -49,26 +49,27 @@ The following preprocessing steps were performed:
 
 🔍 Key Insights
 
-#Gender
+##Gender
+
 Female passengers had a significantly higher survival rate than male passengers.
 
-#Passenger Class
+##Passenger Class
 
 Passengers traveling in higher classes had better chances of survival compared to those in lower classes.
 
-#Age
+##Age
 
 Children generally showed higher survival rates than many adult passengers.
 
-#Family Size
+##Family Size
 
 Passengers traveling with small families were more likely to survive than those traveling alone or in very large families.
 
-#Fare
+##Fare
 
 Higher ticket fares were associated with increased survival rates.
 
-#Cabin Availability
+##Cabin Availability
 
 Passengers with recorded cabin information tended to have higher survival rates, suggesting a relationship between cabin allocation and passenger class.
 
