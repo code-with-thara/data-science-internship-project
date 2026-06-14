@@ -57,7 +57,3 @@ The dataset used is `Titanic-Dataset.csv`, which contains passenger details such
 This project demonstrates a complete data analysis workflow from raw data to insights. Key factors such as gender, passenger class, fare, and family size strongly influenced survival outcomes.
 
 Dataset is now clean and ready for machine learning models.
-
----
-
-⭐ Project completed as part of Data Analytics practice.
