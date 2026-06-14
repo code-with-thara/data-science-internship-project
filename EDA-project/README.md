@@ -1,102 +1,91 @@
-🚢 Titanic Survival Prediction - Exploratory Data Analysis (EDA)
+# 🚢 Titanic Survival Prediction - Exploratory Data Analysis (EDA)
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to uncover patterns, trends, and factors that influenced passenger survival. The analysis includes data cleaning, feature engineering, statistical exploration, and data visualization to gain meaningful insights and prepare the dataset for future predictive modeling.
-
----
-
-🎯 Objectives
-
-- Explore and understand the Titanic dataset
-- Assess and improve data quality
-- Handle missing values effectively
-- Create meaningful features for analysis
-- Identify factors affecting passenger survival
-- Generate insights through visualization and statistical analysis
-- Prepare the dataset for machine learning models
+This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to identify patterns and factors that influenced passenger survival. The analysis focuses on data cleaning, feature engineering, visualization, and extracting meaningful insights from the dataset.
 
 ---
 
-📂 Dataset
+## 🎯 Objectives
 
-The dataset used is Titanic-Dataset.csv, which contains passenger details such as PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, and Embarked.
+- Understand the structure and quality of the dataset.
+- Perform data cleaning and preprocessing.
+- Explore relationships between passenger attributes and survival.
+- Identify key factors that influenced survival rates.
+- Generate insights through statistical and visual analysis.
 
 ---
 
-🛠️ Technologies Used
+## 📂 Dataset
+
+The dataset contains passenger information such as age, gender, ticket class, fare, embarkation point, and survival status.
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Google Colab
+- Jupyter Notebook
 
 ---
 
-📊 Data Preparation
+## 📊 Data Preparation
 
-The following preprocessing steps were performed:
+### Missing Value Handling
 
-- Missing values in Age were filled using the median value.
-- Missing values in Embarked were filled using the most frequent category.
-- New features such as Title, FamilySize, and IsAlone were created.
-- Categorical variables were encoded for analysis and modeling.
-- Data quality checks were performed to ensure consistency and completeness.
+- Filled missing values in `Age` using the median.
+- Filled missing values in `Embarked` using the mode.
 
----
+### Feature Engineering
 
-🔍 Key Insights
+- Created `FamilySize` feature.
+- Created `IsAlone` feature.
 
-##Gender
+### Data Cleaning
 
-Female passengers had a significantly higher survival rate than male passengers.
-
-##Passenger Class
-
-Passengers traveling in higher classes had better chances of survival compared to those in lower classes.
-
-##Age
-
-Children generally showed higher survival rates than many adult passengers.
-
-##Family Size
-
-Passengers traveling with small families were more likely to survive than those traveling alone or in very large families.
-
-##Fare
-
-Higher ticket fares were associated with increased survival rates.
-
-##Cabin Availability
-
-Passengers with recorded cabin information tended to have higher survival rates, suggesting a relationship between cabin allocation and passenger class.
+- Removed unnecessary columns.
+- Checked data consistency and data types.
 
 ---
 
-📈 Analysis Performed
+## 🔍 Key Insights
 
-- Data Quality Assessment
-- Missing Value Analysis
-- Statistical Summary Analysis
-- Feature Engineering
-- Survival Analysis
-- Correlation Analysis
-- Data Visualization
+### Gender
+- Female passengers had significantly higher survival rates than male passengers.
 
-Visualizations Included
+### Passenger Class
+- First-class passengers had better survival chances compared to other classes.
 
+### Age
+- Children showed higher survival rates than adults.
+
+### Fare
+- Passengers who paid higher fares generally had better survival outcomes.
+
+---
+
+## 📈 Analysis Performed
+
+### Statistical Analysis
+- Summary statistics
+- Distribution analysis
+
+### Visual Analysis
 - Survival Distribution
-- Survival by Gender
-- Survival by Passenger Class
+- Gender vs Survival
+- Passenger Class vs Survival
 - Age Distribution
-- Family Size Analysis
+
+### Correlation Analysis
 - Correlation Heatmap
+- Feature Relationship Analysis
 
 ---
 
-🎯 Outcome
+## 🎯 Outcome
 
-The exploratory analysis identified several important factors influencing passenger survival, including gender, passenger class, fare, age, family size, and cabin availability. These findings provide valuable insights into the dataset and establish a strong foundation for building predictive machine learning models.
-
+The analysis revealed that gender, passenger class, age, and fare were among the most important factors influencing survival on the Titanic. These insights demonstrate how exploratory data analysis can uncover meaningful patterns within a dataset.
